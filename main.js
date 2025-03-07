@@ -14,7 +14,7 @@ const colors = []
 const fontSizes = ["2rem","2.25rem", "2.5rem", "3rem", "3.25rem"]; // Add more sizes
 
 function startRoulette() {
-    let time = 5000; // time to stop (3 seconds)
+    let time = 2000; // time to stop (3 seconds)
     let speed = 200; // speed of word switching (in ms)
 
     clearInterval(interval); // Clear any running intervals
